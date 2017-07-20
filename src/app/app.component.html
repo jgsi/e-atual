@@ -1,20 +1,244 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
-  </li>
-</ul>
+	 <header>
+		<nav class="navbar navbar-inverse navbar-fixed-top navbar-toggleable-md navbar-light bg-faded">
+      <div class="container-fluid">
+  			<div class="navbar-header">
+  				<a href="#home" class="navbar-brand">E-ATUAL</a>
+<!--           <button class="navbar-toggle navbar-toggle-right" type="button" 
+          data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggle-icon"></span>
+          </button>
+ -->      <button class="navbar-toggle" type="button"
+          data-target=".navbar-collapse" data-toggle="collapse"
+          aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="glyphicon glyphicon-menu-hamburger"></span> 
+        </button>
+   			</div>
+  			<div class="collapse navbar-collapse">
+  				<ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+                Cursos
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Área Administrativa</a></li>
+                <li><a href="#">Área Contábil</a></li>
+                <li><a href="#">Área Jurídica</a></li>
+              </ul>
+            </li>
+  					<li><a href="#consultoria">Consultoria</a></li>
+  					<li><a href="#sobreNos">Sobre nós</a></li>
+  				</ul>
+          <div class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
+                <li><a href="#login">Login</a></li>
+                <li><a href="#matricular">Matricule-se</a></li>
+            </ul>
+          </div>
+      </div>
+			<!--				<form class="navbar-form navbar-right">
+								<div class="form-group">
+									<input type="text" class="form-control" style="width: 20em;" placeholder="Digite o que você procura" />
+								</div>
+								<input class="btn btn-default"  type="submit" value="Buscar" />
+							</form>
+			-->
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container-fluid">
+				<div class="row grade-cursos">
+						<div class="col-md-4">
+							<p class="text-center">
+								<img alt="Simbolo Juridico" src="assets/img/administrativo.jpg"
+								class="simbolo-curso"/>
+								Cursos na área <span class="texto-destaque">Administrativa</span>
+							</p>
+						</div>
+						<div class="col-md-4">
+							<p class="text-center">
+								<img alt="Simbolo Juridico" src="assets/img/contabilidade.jpg"
+								class="simbolo-curso"/>
+								Cursos na área <span class="texto-destaque">Contábil</span>
+							</p>
+						</div>
+						<div class="col-md-4">
+							<p class="text-center">
+								<img alt="Simbolo Juridico" src="assets/img/juridico.jpg"
+								class="simbolo-curso"/>
+								Cursos na área <span class="texto-destaque">Jurídica </span>
+							</p>
+					</div>
+      </div>
+          
+			<div>
+					<h1 class="text-center titulo-destaque">Alavanque sua carreira com os cursos online da Atual. </h1>
+					<h3 class="text-center subtitulo">Faça seu curso na hora que quiser, onde você quiser! </h3>
+			</div>
 
+      <div class="col-xs-12 col-sm-12" >
+				<div class="row" >
+					<div id="destaque" class="texto-destaque fundo-invertido titulo-grade-destaque">
+						<h3 class="text-center">Cursos em Destaque</h3>
+					</div>
+					<div class="curso-box col-xs-12 col-md-3 text-center thumbnail wow fadeInUp" data-wow-delay="0s">
+						<figure>
+							<img class="imagem-curso" src="assets/img/venda.jpg" alt="Apertão de mão (Venda)" />
+
+							<div>
+								<h4>Atendimento ao cliente com enfase em vendas</h4>
+								<p>Torne-se um vendedor preparado para o mercado de trabalho.</p>
+							</div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 190,00</a>
+							<a href="#" class="btn btn-primary">
+								<span class="glyphicon glyphicon-shopping-cart"></span>
+								Matricule-se
+							</a>
+						</div>
+					</div>
+					<div class="curso-box col-xs-12 col-md-3 text-center thumbnail wow fadeInUp" data-wow-delay="0s">
+						<figure>
+							<img class="imagem-curso" src="assets/img/asisstente-adm.jpg" alt="Assistente administrativo" />
+
+							<div>
+								<h4>Assistente administrativo e departamento pessoal</h4>
+								<p>Torne-se um assistente administrativo preparado e capacitado com este curso.</p>
+							</div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 210,00</a>
+							<a href="#" class="btn btn-primary">
+								<span class="glyphicon glyphicon-shopping-cart"></span>
+								Matricule-se
+							</a>
+						</div>
+					</div>
+					<div class="curso-box col-xs-12 col-md-3 text-center thumbnail wow fadeInUp curso-box" data-wow-delay="0s">
+						<figure>
+							<img class="imagem-curso" src="assets/img/secretariado.jpg" alt="Secretariado" />
+
+							<div>
+								<h4>Secretariado</h4>
+								<p>Torne-se um(a) secretário(a) pronto para o mercado de trabalho.</p>
+							</div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 90,00</a>
+							<a href="#" class="btn btn-primary">
+								<span class="glyphicon glyphicon-shopping-cart"></span>
+								Matricule-se
+							</a>
+						</div>
+					</div>
+					<div class="curso-box col-xs-12 col-md-3 text-center thumbnail wow fadeInUp curso-box" data-wow-delay="0s">
+						<figure>
+							<img class="imagem-curso" src="assets/img/mkt-pessoal.jpg" alt="Marketing pessoal" />
+
+							<div>
+								<h4>Marketing pessoal</h4>
+								<p>Aprenda a fazer uma boa apresentação pessoal em entrevistas de emprego.</p>
+							</div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 50,00</a>
+							<a href="#" class="btn btn-primary">
+								<span class="glyphicon glyphicon-shopping-cart"></span>
+								Matricule-se
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row" >
+					<div id="maisProcurados" class="texto-destaque fundo-invertido titulo-grade-destaque">
+						<h3 class="text-center">Mais Procurados</h3>
+					</div>
+					<div class="curso-box col-xs-12 col-md-3 text-center thumbnail wow fadeInUp" data-wow-delay="0s">
+						<figure>
+							<img class="imagem-curso" src="assets/img/tecnica-vendas.jpg" alt="Tecnica de vendas" />
+
+							<div>
+								<h4>Técnica de vendas</h4>
+								<p>Aprenda a fechar negócios e realizar vendas nesse curso.</p>
+							</div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 190,00</a>
+							<a href="#" class="btn btn-primary">
+								<span class="glyphicon glyphicon-shopping-cart"></span>
+								Matricule-se
+							</a>
+						</div>
+					</div>
+					<div class="curso-box col-xs-12 col-md-3 text-center thumbnail wow fadeInUp" data-wow-delay="0s">
+						<figure>
+							<img class="imagem-curso" src="assets/img/adm-condominio.jpg" alt="Administração de condominio" />
+
+							<div>
+								<h4>Administração de condomínio</h4>
+								<p>Aprenda a arte da administração de condomínios nesse curso.</p>
+							</div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 210,00</a>
+							<a href="#" class="btn btn-primary">
+								<span class="glyphicon glyphicon-shopping-cart"></span>
+								Matricule-se
+							</a>
+						</div>
+					</div>
+					<div class="curso-box col-xs-12 col-md-3 text-center thumbnail wow fadeInUp" data-wow-delay="0s">
+						<figure>
+							<img class="imagem-curso" src="assets/img/curso-contabilidade.jpg" alt="Camisa azul nacional" />
+
+							<div>
+								<h4>Contabilidade</h4>
+								<p>Aprenda contabilidade na prática, preparando-se para o mercado de trabalho.</p>
+							</div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 90,00</a>
+							<a href="#" class="btn btn-primary">
+								<span class="glyphicon glyphicon-shopping-cart"></span>
+								Matricule-se
+							</a>
+						</div>
+					</div>
+					<div class="curso-box col-xs-12 col-md-3 text-center thumbnail wow fadeInUp" data-wow-delay="0s">
+						<figure>
+							<img class="imagem-curso" src="assets/img/contabilidade-curso.jpg" alt="Camisa azul nacional" />
+
+							<div>
+								<h4>Assistente contábil</h4>
+								<p>Aprenda contabilidade na prática, preparando-se para o mercado de trabalho.</p>
+							</div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 90,00</a>
+							<a href="#" class="btn btn-primary">
+								<span class="glyphicon glyphicon-shopping-cart"></span>
+								Matricule-se
+							</a>
+						</div>
+					</div>
+				</div>
+      </div>
+      
+		</div>
+	</main>
+	<footer>
+	    <p>Rua July Danilenko, 111, Piraquara - PR</p>
+	    <p>Telefone: (41) 3333-1234 </p>
+	</footer>
+	 
