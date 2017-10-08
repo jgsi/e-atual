@@ -1,0 +1,7 @@
+<div class="row" >
+    <div id="destaque" class="texto-destaque fundo-invertido titulo-grade-destaque">
+      <h3 class="text-center">Cursos em Destaque</h3>
+    </div>
+
+    <app-curso *ngFor="let curso of cursos" [cursoModel]="curso"></app-curso>
+  </div>

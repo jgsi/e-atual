@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+.negrito {
+    font-weight: bold;
+  }
+  @media (min-width: 769px) {
+    .btn-responsive {
+      padding: 15px 30px;
+      font-size:90%;
+      line-height: 1.2;
+    }
+  }
+      .navbar-header button {
+          color: #fff;
+      }
+      .fullscreen {
+        width:100%;
+    }
+    main {
+    padding-top:50px;
+  }
+  .max-left {
+      left: 0%;
+      right: auto;
+  }
+  .max-right {
+      left: auto;
+      right: 0%;
+  }
+  .max-bottom {
+    bottom: 0;
+    top: auto;
+    padding-bottom: 5px;
+  }
+  footer {
+      background:#333;
+  color:#fff;
+  padding:20px 0;
+  text-align:center;
+      }
+      .texto-destaque {
+          color: #000;
+          line-height: 1.1;
+          font-weight: bold;
+          font-size: 120%;
+      }
+      .titulo-destaque {
+          font-weight: 600;
+          font-family: Verdana, Arial,sans-serif;
+      }
+      .subtitulo {
+          font-weight: 400;
+          font-family: Verdana, Arial,sans-serif;
+      }
+      .simbolo-curso {
+          width: auto;
+          height: auto;
+          max-width: 200px;
+          max-height: 80px;
+      }
+      .grade-cursos {
+          margin-top: 10px;
+      }
+      .imagem-curso{
+          max-height: 120px;
+          height: auto;
+      }
+      .curso-box {
+          min-height: 300px;
+          height: auto;
+          padding-top: 18px;
+      }
+      .fundo-invertido{
+          background-color: #222;
+          color: #BBB;
+      }
+      .titulo-grade-destaque {
+          border-radius: 10px 10px 0 0;
+          clear: both;
+      }
+      .titulo-grade-destaque p {
+          margin-bottom: 0;
+      }
+
+
