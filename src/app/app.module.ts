@@ -26,7 +26,7 @@ export const firebaseConfig = {
 
 const appRoutes: Routes = [
   {path: '', component:PrincipalComponent},
-  {path: 'cursos', component:CursoComponent}
+  {path: 'destaque', component:DestaqueComponent}
 ]
 
 @NgModule({

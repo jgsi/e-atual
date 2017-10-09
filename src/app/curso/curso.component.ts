@@ -24,7 +24,7 @@ export class CursoComponent implements OnInit {
     this.afAuth = afAuth;
     this.items = db.list('e-atual');
     this.user = afAuth.authState;
-  }
+    }
   login() {
     this.afAuth.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider);
     console.log(this.afAuth.auth.currentUser.displayName);
