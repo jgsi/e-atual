@@ -14,6 +14,7 @@ import { MenuComponent } from './menu/menu.component';
 import { CursoComponent } from './curso/curso.component';
 import { DestaqueComponent } from './destaque/destaque.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { SobrenosComponent } from './sobrenos/sobrenos.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyBKYPXNjRU2WEB2xTvQK6t2vpyXwtVh-Go",
@@ -25,8 +26,9 @@ export const firebaseConfig = {
 }
 
 const appRoutes: Routes = [
-  {path: '', component:PrincipalComponent},
-  {path: 'destaque', component:DestaqueComponent}
+   {path: '', component:PrincipalComponent}
+  ,{path: 'destaque', component:DestaqueComponent}
+  ,{path: 'sobrenos', component:SobrenosComponent}
 ]
 
 @NgModule({
@@ -35,7 +37,8 @@ const appRoutes: Routes = [
     MenuComponent,
     CursoComponent,
     DestaqueComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    SobrenosComponent
   ],
   imports: [
     BrowserModule,
